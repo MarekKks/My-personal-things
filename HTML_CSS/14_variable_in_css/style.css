@@ -1,0 +1,30 @@
+:root {
+    --text-color: #ccc;
+}
+
+/*--: are variables in css
+:root is a pseudoelement, changes everything, above html*/
+
+.section-one {
+    --text-size: 14px;
+}
+
+.section-one p {
+    font-size: var(--text-size);
+}
+
+.section-two p {
+
+}
+
+.section-two p {
+    color: var(--text-color);
+}
+
+/*.section-one {
+    --test: 10px;
+}
+
+.textbox {
+    --test: 20px;
+}
