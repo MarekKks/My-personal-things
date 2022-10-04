@@ -1,0 +1,12 @@
+.ratio {
+    position: inherit!important;
+    width:100%!important
+}
+.ratio>*{
+    position:initial;
+    width:22%;
+    height:100%;
+}
+.ratio::before{
+    display:inline;
+}

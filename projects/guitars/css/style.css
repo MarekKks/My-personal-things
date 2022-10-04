@@ -1,0 +1,37 @@
+
+.container.p-4 {
+    width: 100%!important;
+    display: flex!important;
+}
+.col-lg-6 {
+    width: 100%!important;
+    display: flex!important;
+    flex: auto!important;
+    max-width: none!important;
+}
+
+.row.d-flex.justify-content-center{
+    margin-right: -16px!important;
+}
+a.text-white{
+    color: rgb(97, 164, 187)!important;
+    font-weight: 600;
+}
+.card {
+    display:table-cell!important;
+    width: 25%!important;
+}
+.bg-light{
+    background-color: #45637d!important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white!important;
+}
+@media (min-width: 1500px){ 
+.container {
+    max-width: 85%!important;
+}
+.navbar-expand-lg .navbar-nav{
+    color: black;
+}
+}
